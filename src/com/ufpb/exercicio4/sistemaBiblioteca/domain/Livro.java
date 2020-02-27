@@ -16,6 +16,8 @@ public class Livro {
 		this.estaEmprestado = estaEmprestado;
 		this.autores = autores;
 	}
+	
+	
 
 	public String getId() {
 		return id;
@@ -33,7 +35,7 @@ public class Livro {
 		this.titulo = titulo;
 	}
 
-	public boolean isEstaEmprestado() {
+	public boolean getsEstaEmprestado() {
 		return estaEmprestado;
 	}
 

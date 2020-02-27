@@ -1,5 +1,6 @@
 package com.ufpb.exercicio4.sistemaBiblioteca.domain;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 import com.ufpb.exercicio4.sistemaBiblioteca.enums.TipoUsuario;
@@ -15,7 +16,9 @@ public class Usuario {
 		this.matricula = matricula;
 		this.nome = nome;
 		this.tipo = tipo;
+		this.livrosEmprestados = new ArrayList<Livro>();
 	}
+	
 	public String getMatricula() {
 		return matricula;
 	}
