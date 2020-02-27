@@ -18,6 +18,9 @@ public class Livro {
 	}
 	
 	
+	public boolean estaEmprestado() {
+		return 
+	}
 
 	public String getId() {
 		return id;
